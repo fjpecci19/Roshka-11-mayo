@@ -5,7 +5,7 @@ let jugador2 = ""
 function validarnombres(){
     let j1 = document.getElementById("jugador1").value
     let j2 = document.getElementById("jugador2").value
-    if ((jugador1 === "" && jugador2 === "") || (jugador1 === "" || jugador2 === "")){
+    if ((jugador1 == "" && jugador2 == "") || (jugador1 == "" || jugador2 == "")){
         Swal.fire({
             text: "Ingresa los nombres correctamente",
             icon: "ERROR",
